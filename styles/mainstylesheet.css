@@ -1,0 +1,522 @@
+.shortone {
+    margin-left: 100px;
+}
+
+h1 {
+    font-family: 'Roboto Mono';
+    font-size: 80px;
+    padding-left: 100px;
+    padding-top: 100px;
+    width: auto;
+    height: 250px;
+    color: coral
+}
+
+
+h1:hover {
+    color: blanchedalmond;
+    background-color: coral;
+}
+
+h3{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: 'roboto mono';
+    margin-left: 1300px;
+    font-size: 40px;
+}
+
+.ticks {
+    font-family: 'open sans';
+    font-size: 15px;
+    color: white;
+    padding-left: 100px;
+}
+.tickone {
+    padding-left: 40px;
+}
+
+.ticktwo {
+    padding-left: 80px;
+}
+
+.tickthree {
+    padding-left: 120px;
+}
+
+p {
+    font-family: 'open sans';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+}
+
+p:hover{
+    color: black;
+    animation-name: starts;
+    animation-fill-mode: forwards;
+}
+
+.tickfour:hover{
+    color: black;
+}
+
+.tickone:hover{
+    color: black;
+}
+
+.ticktwo:hover{
+    color:black;
+}
+
+.tickthree:hover{
+    color: black;
+}
+
+h2{
+    font-family: 'roboto mono';
+    font-size: 20px;
+    color: coral;
+    padding-left: 25px;
+}
+
+.you{
+    padding-left: 25px;
+    color: coral;
+}
+
+.some{
+    margin-left: 500px;
+}
+
+.will{
+    padding-left: 1300px;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: coral;
+}
+
+.dreams {
+    width: auto;
+    height: 100px;
+    color: coral;
+    position: relative;
+    padding-left: 25px;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes mymove {
+      0% {top: 0px;}
+      0% {left: 0px;}
+    10%   {top: 20px;} 
+    10%   {left: 30px;}
+    25% {top: -20px;}
+    25% {left: 50px;}
+    50%  {top: 75px;} 
+    50%  {left: 200px;}
+    75%  {top: 140px;}
+    75%  {left: 75px;}
+    100% {top: 0px;}
+    100% {left: 0px;}
+  }
+
+.easy {
+    font-size: 30px;
+    padding-left: 600px;
+}
+
+.not {
+    padding-left: 400px;
+}
+
+.box {
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+}
+
+.boxtwo {
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+}
+
+.devs{
+    font-size: 30px;
+    text-align: center;
+    animation: deevs .75s infinite;
+}
+
+@keyframes deevs {
+    0% {color: coral;}
+    50% {color: white;}
+    100% {color: coral;}
+}
+
+.simple{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding-left: 850px;
+}
+
+h6{
+    font-size: 5px;
+    font-family: 'open sans';
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: blanchedalmond;
+    margin-left: 1300px;
+    background-color: blanchedalmond;
+}
+
+h6:hover{
+    font-size: 15px;
+    writing-mode: horizontal-tb;
+    color: rgb(255, 216, 169);
+    background-color: white;
+    margin-left: 100px;
+}
+
+.exp{
+    width: 500px;
+    color: blanchedalmond;
+}
+
+.exp:hover{
+    color: coral;
+}
+
+a:link {
+    color: coral;
+}
+
+a:visited{
+    color: coral;
+}
+
+.print:hover{
+    color: coral;
+}
+
+.w{
+
+    padding-left: 625px;
+    animation: ww 2s steps(1) infinite;
+}
+
+.r{
+    animation: rr 2s steps(1) infinite;
+    padding-left: 650px;
+}
+
+.i{
+    animation: ione 2s steps(1) infinite;
+    padding-left: 675px;
+}
+
+.t{
+    animation: tt 2s steps(1) infinite;
+    padding-left: 700px;
+}
+
+.ii{
+    animation: itwo 2s steps(1) infinite;
+    padding-left: 725px;
+}
+
+.n{
+    animation: nn 2s steps(1) infinite;
+    padding-left: 750px;
+}
+
+.g{
+    animation: gg 2s steps(1) infinite;
+    padding-left: 775px;
+}
+
+.fullstop{
+    animation: stop 2s steps(1) infinite;
+    padding-left: 800px;
+}
+
+
+@keyframes ww{
+    0% {color: white;}
+    10% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes rr{
+    0% {color: white;}
+    20% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes ione{
+    0% {color: white;}
+    30% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes tt{
+    0% {color: white;}
+    40% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes itwo{
+    0% {color: white;}
+    50% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes nn{
+    0% {color: white;}
+    60% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes gg{
+    0% {color: white;}
+    70% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes stop{
+    0% {color: white;}
+    80% {color: coral;}
+    100% {color: coral;}
+}
+
+
+.awkward{
+    padding-left: 580px;
+    letter-spacing: -3px;
+    line-height: 15px;
+}
+
+.big{
+    font-size: 60px;
+  text-align: right;
+}
+
+.list {
+    padding-left: 600px;
+}
+
+.crazy{
+    animation: cray 7s infinite;
+    animation-timing-function: linear;
+    width: auto;
+    position: relative;
+}
+
+@keyframes cray {
+    0% {top: 0px;}
+    0% {left: 0px;}
+    10% {top: 75px;}
+    10% {left: 256px;}
+    20% {top: 194px;}
+    20% {left: 23px;}
+    30% {top: 237px;}
+    30% {left: 723px;}
+    40% {top: 321px;}
+    40% {left: 16px;}
+    50% {top: 11px;}
+    50% {left: 406px;}
+    60% {top: 124px;}
+    60% {left: 304px;}
+    70% {top: 221px;}
+    70% {left: 393px;}
+    80% {top: 181px;}
+    80% {left: 182px;}  
+    90% {top: 271px;}
+    90% {left: 222px;}
+    100% {top: 0px;}
+    100% {left: 0px;}
+}
+
+.tiny {
+    padding-left: 800px;
+    font-size: 10px;
+}
+
+.bump {
+    padding-left: 400px;
+}
+
+.reuse {
+    padding-left: 760px;
+}
+
+.cod {
+    font-size: 40px;
+    padding-left: 200px;
+}
+
+.god {
+    font-size: 10px;
+    text-align: right;
+}
+
+.squig {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;  
+    padding-left: 500px;
+}
+
+.titles {
+font-size: 60px;
+}
+
+.plaid {
+    font-size: 10px;
+    padding-left: 50px;
+}
+
+.slack {
+    padding-left: 300px;
+}
+
+.con {
+    text-align: right;
+    padding-right: 100px;
+    animation: conz 1s steps(1) infinite
+}
+
+@keyframes conz{
+    0% {color: coral;}
+    50% {color: white;}
+    100% {color: coral;}
+}
+
+.tribe {
+    text-align: center
+}
+
+.row{
+    width: 220px;
+    text-align: justify
+}
+
+.fallen {
+    padding-left: 900px;
+    animation: fale 4s steps(1) infinite;
+}
+
+.fall1 {
+    padding-left: 75px;
+    animation: fale1 4s steps(1) infinite;
+}
+
+.fall2 {
+    padding-left: 150px;
+    animation: fale2 4s steps(1) infinite;
+}
+
+.fall3 {
+    padding-left: 75px;;
+    animation: fale3 4s steps(1) infinite;
+    
+}
+
+.fall4 {
+    padding-left: 150px;;
+    animation: fale4 4s steps(1) infinite;
+    
+}
+
+.fall5 {
+    padding-left: 75px;;
+    animation: fale5 4s steps(1) infinite;
+    
+}
+
+.fall6 {
+    padding-left: 150px;;
+    animation: fale6 4s steps(1) infinite;
+    
+}
+.fall7 {
+    padding-left: 75px;;
+    animation: fale7 4s steps(1) infinite;
+    
+}
+
+@keyframes fale{
+    0% {color: white;}
+    10% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes fale1{
+    0% {color: white;}
+    20% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes fale2{
+    0% {color: white;}
+    30% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes fale3{
+    0% {color: white;}
+    40% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes fale4{
+    0% {color: white;}
+    50% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes fale5{
+    0% {color: white;}
+    60% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes fale6{
+    0% {color: white;}
+    70% {color: coral;}
+    100% {color: coral;}
+}
+
+@keyframes fale7{
+    0% {color: white;}
+    80% {color: coral;}
+    100% {color: coral;}
+}
+
+.women {
+    padding-left: 600px;
+    font-size: 60px;
+}
+
+.strange {
+    padding-left: 200px;
+}
+
+.question {
+    padding-left: 400px;
+}
+
+img:hover{
+width: 600px;
+}
+
+.im1 {
+    padding-left: 300px;
+}
+
+.im2{
+    padding-left: 800px;
+}
+
+.im3{
+    padding-left: 500px;
+}

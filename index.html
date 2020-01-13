@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/mainstylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h3 class="chapter">Chapter 2</h3>
+    
+ 
+    <br>
+
+   <h1> let's <br><u>begin.</u><br></h1>
+
+<p>
+    A computer is a clock with benefits. They all work the same, doing second-grade math, one step at a time: 
+    <br> <br>
+    <div class="ticks">
+    <div class="tickfour">
+    Tick, take a number and put it in box one. 
+</div>
+    <br>
+    <div class="tickone">
+    Tick, take another number, put it in box two. 
+    <br><br></div>
+    <div class="ticktwo">
+    Tick, operate (an operation might be addition or subtraction) on those two numbers and put the resulting number in box one. 
+    <br><br></div>
+    <div class="tickthree">
+    Tick, take another number, put it in box two. 
+</div></div>
+</p>
+<br><br>
+
+<h2 class="you"> You, using a pen and paper, can do anything a computer can;</h2>
+<p> you just can’t do those things billions of times per second. And those billions of tiny
+    <br>operations add up. They can cause a phone to boop, elevate an elevator, or redirect 
+    <br>a missile. That raw speed makes it possible to pull off not one but multiple sleights 
+    <br>of hand, card tricks on top of card tricks. Take a bunch of pulses of light reflected 
+    <br>from an optical disc, apply some math to unsqueeze them, and copy the resulting pile 
+    <br>of expanded impulses into some memory cells—then read from those cells to paint light 
+    <br>on the screen. Millions of pulses, 60 times a second. That’s how you make the rubes 
+    <br>believe they’re watching a movie.</p>
+
+    <p>Apple has always made computers; Microsoft used to make only software (and occasional 
+        <br>accessory hardware, such as mice and keyboards), but now it’s in the hardware business, 
+        <br>with Xbox game consoles, Surface tablets, and Lumia phones. Facebook assembles its own 
+        <br>computers for its massive data centers.</p>
+
+        <p>So many things are computers, or will be. That includes watches, cameras, air conditioners,
+            <br>cash registers, toilets, toys, airplanes, and movie projectors. Samsung makes computers that 
+            <br>look like TVs, and Tesla makes computers with wheels and engines.</p>
+            
+            <h2 class="some">Some things that aren’t yet computers—dental floss, flashlights—</h2>
+
+         
+            <h2 class="will">will fall eventually.</h2><br><br>
+
+            <p>When you “batch” process a thousand images in Photoshop or sum numbers in Excel, you’re 
+                <br>programming, at least a little. When you use computers too much—which is to say a typical amount
+                <br>—they start to change you. I’ve had Photoshop dreams, Visio dreams, spreadsheet dreams, and
+                <br> Web browser dreams. The dreamscape becomes fluid and can be sorted and restructured. </p>
+                
+                <h2 class="dreams">I’ve had programming dreams where I move text around the screen.</h2>
+<br><br>
+                <p>You can make computers do wonderful things, but you need to understand their limits. 
+                    <br>They’re not all-powerful, not conscious in the least. They’re fast, but some parts—the
+                    <br>processor, the RAM—are faster than others—like the hard drive or the network connection. 
+                    <br>Making them seem infinite takes a great deal of work from a lot of programmers and a 
+                    <br>lot of marketers.</p>
+
+                    <p>The turn-of-last-century British artist William Morris once said you can’t have art without 
+                        <br>resistance in the materials. The computer and its multifarious peripherals are the materials.
+                        <br> The code is the art.</p>
+
+                        <h3>2.1</h3>
+
+<br>
+
+<div class="box"></div>
+
+<h2 class="titles"><u>how do you type an a?</u></h2>
+<!--
+<h5>How Do You Type an A?</h5>-->
+
+ <p>Consider what happens when you strike a key on your keyboard. Say a lowercase “a.” The keyboard
+     <br>is waiting for you to press a key, or release one; it’s constantly scanning to see what keys are
+     <br>pressed down. Hitting the key sends a scancode.</p>
+
+<p>Just as the keyboard is waiting for a key to be pressed, the computer is waiting for a signal from 
+    <br>the keyboard. When one comes down the pike, the computer interprets it and passes it farther into
+    <br>its own interior. “Here’s what the keyboard just received—do with this what you will.”</p>
+
+<p>It’s simple now, right? The computer just goes to some table, figures out that the signal corresponds 
+    <br>to the letter “a,” and puts it on screen. </p>
+    
+   <h2 class="not"> Of course not</h2>
+      <h2 class="easy"> — too easy. </h2>
+    <br>
+    <p>Computers are machines. They don’t know what a screen or an “a” are. To put the “a” on the screen, 
+    <br>your computer has to pull the image of the “a” out of its memory as part ofa font, an “a” made
+    <br>up of lines and circles. It has to take these lines and circles and render them in a little box 
+    <br>of pixels in the part of its memory that manages the screen. So far we have at least three 
+    <br>representations of one letter: the signal from the keyboard; the version in memory; and the 
+    <br>lines-and-circles version sketched on the screen. We haven’t even considered how to store it, 
+    <br>or what happens to the letters to the left and the right when you insert an “a” in the middle 
+    <br>of a sentence. Or what "lines and circles” mean when reduced to binary data. There are 
+    <br>surprisingly many ways to represent a simple “a.” It’s amazing any of it works at all.</p><br>
+    
+    <h2>Coders are people who are willing to work <i>sdrawkcab</i> to that key press. </h2>
+        <br>
+        <p>It takes a certain temperament to page through standards documents, manuals, and 
+        <br>documentation and read things like “data fields are transmitted least significant bit
+        <br>first” in the interest of understanding why, when you expected “ü,” you keep getting “�.”</p>
+
+        <h3>2.2</h3>
+
+        <div class="boxtwo"></div>
+        <h2 class="titles"><u>from hardware to software</u></h2>
+
+<p>Hardware is a tricky business. For decades the work of integrating, building, and shipping
+<br> computers was a way to build fortunes. But margins tightened. Look at Dell, now back in 
+<br>private hands, or Gateway, acquired by Acer. Dell and Gateway, two world-beating companies, 
+<br>stayed out of software, typically building PCs that came preinstalled with Microsoft 
+<br>Windows—plus various subscription-based services to increase profits.</p>
+
+<p>This led to much cursing from individuals who’d spent $1,000 or more on a computer 
+    <br>and now had to figure out how to stop the antivirus software from nagging them to pay up.</p>
+
+<p>Years ago, when Microsoft was king, Steve Ballmer, sweating through his blue button-down, 
+    <br>jumped up and down in front of a stadium full of people and chanted, </p>
+    
+  <h2 class="devs">Developers! 
+      <br>Developers! <br>Developers! <br>Developers!</h2>
+<br>
+<p>He yelled until he was hoarse: “I love this company!” Of course he did. If you can sell 
+<br>the software, if you can light up the screen, you’re selling infinitely reproducible 
+<br>nothings. The margins on nothing are great—until other people start selling even 
+<br>cheaper nothings or giving them away. Which is what happened, as free software-based 
+<br>systems such as Linux began to nibble, then devour, the server market, and free-to-use 
+<br>Web-based applications such as Google Apps began to serve as viable replacements 
+<br>for desktop software.</p>
+
+<p>Expectations around software have changed over time. IBM unbundled software 
+<br>from hardware in the 1960s and got to charge more; Microsoft rebundled Internet
+<br>Explorer with Windows in 1998 and got sued; Apple initially refused anyone else 
+<br>the ability to write software for the iPhone when it came out in 2007, and then 
+<br>opened the App Store, which expanded into a vast commercial territory—and soon 
+<br>the world had Angry Birds. Today, much hardware comes with some software—a PC 
+<br>comes with an operating system, for example, and that OS includes hundreds of 
+<br>subprograms, from mail apps to solitaire. Then you download or buy more.</p>
+
+<p>There have been countless attempts to make software easier to write, promising that 
+    <br>you could code in plain English, or manipulate a set of icons, or make a list 
+    <br>of rules—software development so simple that a bright senior executive </p>
+
+<h2 class="simple">or an <br>average <br>child could <br>do it. </h2>
+<br>
+<p>Decades of efforts have gone into helping civilians write code as they might use a 
+<br>calculator or write an e-mail. Nothing yet has done away with <i>developers, developers, developers, developers.</i></p>
+
+<p>Thus a craft, and a professional class that lives that craft, emerged. Beginning in 
+<br>the 1950s, but catching fire in the 1980s, a proportionally small number of people 
+<br>became adept at inventing ways to satisfy basic human desires (know the time, schedule 
+<br>a flight, send a letter, kill a zombie) by controlling the machine. Coders, starting 
+<br>with concepts such as “signals from a keyboard” and “numbers in memory,” created 
+<br>infinitely reproducible units of digital execution that we call software, hoping to 
+<br>meet the needs of the marketplace. Man, did they. The systems they built are used 
+<br>to manage the global economic infrastructure. <b>(1)</b> If coders don’t run the world, </p>
+
+<h6> (1) 
+<br>Not bad for six or seven decades—but keep it in perspective. Software may be 
+<br>eating the world, but the world was previously eaten by other things, too: 
+<br>the rise of the telephone system, the spread of electricity, and the absolute 
+<br>domination of the automobile. It’s miraculous that we have mobile phones, 
+<br>but it’s equally miraculous that we can charge them.</h6>
+
+<br><br>
+
+<h2>
+<marquee behavior="scroll" direction="left" scrollamount="30">they run the things that run the world
+    they run the things that run the world they run the things that run the world they run the things that run the world they run the things that run the world
+    they run the things that run the world they run the things that run the world they run the things that run the world they run the things that run the world
+</marquee>
+</h2>
+
+<p>Most programmers aren’t working on building a widely recognized application like 
+<br>Microsoft Word. Software is everywhere. It’s gone from a craft of fragile, 
+<br>built-from-scratch custom projects to an industry of standardized parts, where
+<br>coders absorb and improve upon the labors of their forebears (even if those 
+<br>forebears are one cubicle over). Software is there when you switch channels and 
+<br>your cable box shows you what else is on. You get money from an ATM—software. 
+<br>An elevator takes you up five stories—the same. Facebook releases software every 
+<br>day to something like a billion people, and that software runs inside Web 
+<br>browsers and mobile applications. Facebook looks like it’s just pictures of your 
+<br>mom’s crocuses or your son’s school play—but no, it’s software.</p>
+
+<h3>2.3</h3>
+<div class="boxtwo"></div>
+<h2 class="titles"><u>how does code become software?</u></h2>
+
+<p>We know that a computer is a clock with benefits, and that software starts as code, but how?</p>
+
+<p>We know that someone, somehow, enters a program into the computer and the 
+<br>program is made of code. </p>
+
+<h2>In the old days, that meant putting h_les in punch cards. </h2>
+
+<p>
+<br>Then you’d put the cards into a box and give them to an operator who would load 
+<br>them, and the computer would flip through the cards, identify where the 
+<br>holes were, and update parts of its memory, and then it would—OK, that’s a 
+<br>little too far back. Let’s talk about modern typing-into-a-keyboard code. 
+<br>It might look like this:</p>
+
+<h2 class="exp">ispal: {x~|x}</h2>
+
+<p>That’s in a language called, simply, K, famous for its brevity. <b>(2)</b> That code 
+<br>will test if something is a palindrome. If you next typed in ispal "able was
+<br> i ere i saw elba", K will confirm that yes, this is a palindrome.</p>
+
+<h6> (2)
+<br>The world of code is filled with acronyms. K is modeled on another language 
+<br>called APL, which stands for A Programming Language. Programmers are funny, 
+<br>like your uncle. They hold the self-referential and recursive in the highest 
+<br>regard. Another classic: GNU, which means GNU’s Not Unix. Programmer jokes 
+<br>make you laugh and sigh at once. Or just sigh.</h6>
+
+<p>So how else might your code look? Maybe like so, in  <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_excel.png">Excel</a> (with all the formulas
+    <br> hidden away under the numbers they produce, and a check box that you can check)</p>
+    
+<p>But Excel spreadsheets are tricky, because they can hide all kinds of things under 
+<br>their numbers. This opacity causes risks. One study by a researcher at the 
+<br>University of Hawaii found that 88 percent of spreadsheets contain errors.</p>
+
+<p>Programming can also look like  <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_scratch.png">scratch</a>, a language for kids.</p>
+
+<p>That’s definitely programming right there—the computer is waiting for a click, 
+<br>for some input, just as it waits for you to type an “a,” and then it’s doing 
+<br>something repetitive, and it involves hilarious animals.</p>
+
+<p>Or maybe:</p>
+<h2 class="exp"> PRINT *, "WHY WON'T IT WORK
+    <br>END</h2>
+
+<p>That’s in Fortran. The reason it’s not working is that you forgot to put a 
+ <br>quotation mark at the end of the first line. Try a little harder, thanks.</p>
+
+<p>All of these things are coding of one kind or another, but the last bit is 
+<br>what most programmers would readily identify as code. A sequence of symbols 
+<br>(using typical keyboard characters, saved to a file of some kind) that 
+<br>someone typed in, or copied, or pasted from elsewhere. That doesn’t mean 
+<br>the other kinds of coding aren’t valid or won’t help you achieve your goals. </p>
+
+<h2>Coding is a broad human activity, like sport, or </h2>
+
+<h2 class="w">
+w
+</h2>
+<h2 class="r">
+    r
+    </h2>
+    <h2 class="i">
+        i
+        </h2>
+        <h2 class="t">
+            t
+            </h2>
+            <h2 class="ii">
+                i
+                </h2>
+                <h2 class="n">
+                    n
+                    </h2>
+                    <h2 class="g">
+                        g
+                        </h2>
+                        <h2 class="fullstop">
+                            .
+                            </h2>
+
+
+<p>When software developers think of coding, most of them are thinking about lines of code 
+<br>in files. They’re handed a problem, think about the problem, write code 
+<br>that will solve the problem, and then expect the computer to turn word into deed.</p>
+
+<p>Code is inert. How do you make it ert? You run software that transforms it into 
+<br>machine language. The word “language” is a little ambitious here, given that 
+<br>you can make a computing device with wood and marbles. Your goal is to turn your code 
+<br>into an explicit list of instructions that can be carried out by interconnected 
+<br>logic gates, thus turning your code into something that can be executed—software.</p>
+
+<p>A compiler is software that takes the symbols you typed into a file and transforms 
+<br>them into lower-level instructions. Imagine a programming language called Business 
+<br>Operating Language United System, or Bolus. </p>
+
+<h2 class="awkward">It’s a terrible language 
+                <br>that will have to suffice 
+                <br>for a few awkward paragraphs. </h2>
+    
+<p>It has one real command, PRINT. We want it to print HELLO NERDS on our screen. 
+<br>To that end, we write a line of code in a text file that says:</p>
+
+<h2 class="exp">PRINT {HELLO NERDS}</h2>
+
+<p>And we save that as nerds.bol. Now we run gnubolus nerds.bol, our imaginary compiler 
+<br>program. How does it start? The only way it can: by doing lexical analysis, going 
+<br>character by character, starting with the “p,” grouping characters into tokens, saving 
+<br>them into our one-dimensional tree boxes. <a href='https://drive.google.com/open?id=12v31aZl0oKQhQK7dJvkQIZUKmXZ-xiF-'> Let's be the computer</a></p>
+
+<p>The reason I’m showing it to you is so you can see how every character matters. 
+<br>Computers usually “understand” things by going character by character, bit by bit, 
+<br>transforming the code into other kinds of code as they go. The Bolus compiler now 
+<br>organizes the tokens into a little tree. Kind of like a sentence diagram. Except instead 
+<br>of nouns, verbs, and adjectives, the computer is looking for functions and arguments. 
+<br>Our program above, inside the computer, becomes <a href='https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_tree-tree.svg'>this</a></p>
+
+<p>Trees are a really pleasant way of thinking of the world. Your memo at work has 
+<br>sections that have paragraphs? Tree. Your e-mail program contains messages that 
+<br>contain subject lines and addresses? Tree. Your favorite software program that 
+<br>has a menu bar with individual items that have subitems? Tree. Every day is 
+<br>Arbor Day in Codeville.</p>
+
+<p>Of course, it’s all a trick. If you cut open a computer, you’ll find countless 
+<br>little boxes in rows, places where you can put and retrieve bytes. Everything 
+<br>ultimately has to get down to things in little boxes pointing to each other. 
+<br>That’s just how things work. So that tree is actually more like 
+<a href='https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_tree-array.svg'>this</a></p>
+
+
+<h2 class="big">Every <br>character <br>truly, <br><i>truly matters.</i> </h2>
+
+<p>Every single stupid misplaced semicolon, space where you meant tab, bracket 
+<br>instead of a parenthesis—mistakes can leave the computer in a state of panic. 
+<br>The trees don’t know where to put their leaves. Their roots decay. The boxes 
+<br>don’t stack neatly. For not only are computers as dumb as a billion marbles, 
+<br>they’re also positively Stradivarian in their delicacy.</p>
+
+<p>That process of going character by character can be wrapped up into a 
+<br>routine—also called a function, a method, a subroutine, or component. 
+<br>(Little in computing has a single, reliable name, which means everyone 
+<br>is always arguing over semantics.) And that routine can be run as 
+<br>often as you need. Second, </p>
+
+<h2>you can print anything you wish,</h2>
+
+<p>
+<br>not just one phrase. Third, you can repeat the process forever, and nothing 
+<br>will stop you until the machine breaks or, barring that, heat death 
+<br>of the universe. Obviously no one besides Jack Nicholson in The Shining 
+<br>really needs to keep typing the same phrase over and over, and even 
+<br>then it turned out to be a bad idea.</p>
+
+<p>Instead of worrying about where the words are stored in memory and having 
+<br>to go character by character, programming languages let you think of 
+<br>things like strings, arrays, and trees. That’s what programming gives you. 
+<br>You may look over a programmer’s shoulder and think the code looks complex 
+<br>and boring, but it’s covering up repetitive boredom that’s unimaginably vast. <b>(3)</b></p>
+
+<h6>(3)
+<br>Compilation is one of the denser subjects in computer science, because the
+<br>lower down you go, the more opportunities there are to do deep, weird 
+<br>things that can speed up code significantly—and faster is cheaper and better. 
+<br>You can write elegant, high-level code like F. Scott Fitzgerald, and the 
+<br>computer will compile you into Ernest Hemingway. But compilers often do several 
+<br>passes, turning code into simpler code, then simpler code still, from Fitzgerald, 
+<br>to Hemingway, to Stephen King, to Stephenie Meyer, all the way down to Dan 
+<br>Brown, each phase getting less readable and more repetitive as you go.</h6>
+
+<p>This thing we just did with individual characters, compiling a program down 
+<br>into a fake assembly language so that the nonexistent computer can print each 
+<br>character one at a time? The same principle applies to every pixel on your 
+<br>screen, every frequency encoded in your MP3 files, and every imaginary cube 
+<br>in Minecraft. Computing treats human language as an arbitrary set of symbols 
+<br>in sequences. It treats music, imagery, and film that way, too.</p>
+
+<p>It’s a good and healthy exercise to ponder what your computer is doing right now. 
+<br>Maybe you’re reading this on a laptop: What are the steps and layers between what 
+<br>you’re doing and the Lilliputian mechanisms within? When you double-click an 
+<br>icon to open a program such as a word processor, the computer must know where that 
+<br>program is on the disk. It has some sort of accounting process to do that. And 
+<br>then it loads that program into its memory—which means that it loads an enormous 
+<br>to-do list into its memory and starts to step through it. </p>
+<br>
+<h2 class="list">What does
+
+<ul>
+    <li>that </li>
+    <li>list</li> 
+    <li>look </li>
+    <li>like</li>
+    <li>?</li>
+</ul></h2>
+
+<p>Maybe you’re reading this in print. No shame in that. In fact, thank you. The paper 
+<br>is the artifact of digital processes. Remember how we put that “a” on screen? See if 
+<br>you can get from some sleepy writer typing that letter on a keyboard in Brooklyn, 
+<br>N.Y., to the paper under your thumb. What framed that fearful symmetry?</p>
+
+<p>Thinking this way will teach you two things about computers: One, there’s no magic, no matter
+<br>how much it looks like there is. There’s just work to make things look like magic. And two, </p>
+
+<h2 class="crazy">it’s  C R A Z Y  in there.</h2>
+
+<h3>2.4</h3>
+<div class="boxtwo"></div>
+<h2 class="titles"><u>what is an algorithm?</u></h2>
+
+<p>“Algorithm” is a word writers invoke to sound smart about technology. Journalists 
+<br>tend to talk about “Facebook’s algorithm” or a “Google algorithm,” which is usually 
+<br>inaccurate. They mean “software.”</p>
+
+<p>Algorithms don’t require computers any more than geometry does. An algorithm solves 
+<br>a problem, and a great algorithm gets a name. Dijkstra’s algorithm, after the 
+<br>famed computer scientist Edsger Dijkstra, finds the shortest path in a graph. By the way, 
+<br>“graph” here doesn’t mean a bar chart but rather a collection of nodes, connected by paths.</p>
+
+<p>hink of a map; streets connect to streets at intersections. It’s a graph! There are 
+<br>graphs all around you. Plumbing, electricity, code compilation, social networks, 
+<br>the Internet, all can be represented as graphs! (Now to monetize …)</p>
+
+<p>Many algorithms have their own pages on Wikipedia. You can spend days poking around 
+<br>them in wonder. Euclid’s algorithm, for example, is the go-to specimen that shows up 
+<br>whenever anyone wants to wax on about algorithms, so why buck the trend? It’s a 
+<br>simple way of determining the greatest common divisor for two numbers. Take two numbers, 
+<br>like 16 and 12. Divide the first by the second. If there’s a remainder (in this case 
+<br>there is, 4), divide the smaller number, 12, by that remainder, 4, which gives you 3 and 
+<br>no remainder, so we’re done—and 4 is the greatest common divisor.Δ (Now translate that 
+<br>into machine code, and we can get out of here.)</p>
+
+<p>There’s a site called Rosetta Code that shows you different algorithms in different 
+<br>languages. The Euclid’s algorithm page is great. </p>
+<br>
+<h2>Some of the examples are suspiciously <i>loooooooooooong</i> and laborious, </h2>
+
+<h2 class="tiny">and some are tiny nonsense poetry, </h2>
+
+<p>like this one, in the language Forth <b>(4)</b></p>
+
+<h6> (4)
+<br>I find code on the printed page to be hard to read. I don’t blame you if 
+<br>your eyes blur. I try to read lots of code, but it makes more sense on the 
+<br>computer, where you could conceivably change parts of it and mess around. 
+<br>Every now and then I’ll find some gem; the utility programs in the Unix source 
+<br>code are often amazingly brief and simple and obvious, everything you’d hope 
+<br>from a system that prides itself on being made up of simple, composable elements.</h6>
+
+<h2 class="exp">
+    : gcd ( a b -- n )
+    <br>begin dup while tuck mod repeat drop ;
+</h2>
+
+<p>Read it out loud, preferably to friends. Forth is based on the concept of a stack, 
+<br>which is a special data structure. You make “words” that do things on the 
+<br>stack, building up a little language of your own. PostScript,<b>(5)</b> the language of 
+<br>laser printers, came after Forth but is much like it. Look at how similar the 
+<br>code is, give or take some squiggles:</p>
+
+<h6> (5)
+<r></r>Adobe created PostScript in the early 1980s and licensed it to Apple, its 
+<br>first success. Three-plus decades later, Adobe is valued at $38 billion. 
+<br>PDF is a direct descendant of PostScript, and there are PDFs everywhere. 
+<br>In code as in life, ideas grow up inside of languages and spread with them.</h6>
+
+<h2 class="exp">
+    <br>/gcd {
+    <br>{
+    <br>  {0 gt} {dup rup mod} {pop exit} ifte
+    <br> } loop
+    <br>}.</h2>
+
+<p>And that’s Euclid’s algorithm in PostScript. I admit, this might be fun only for me. 
+<br>Here it is in Python (all credit to Rosetta Code):</p>
+
+<h2 class="exp">def gcd(u, v):
+    <br>return gcd(v, u % v) if v else abs(u)</h2>
+<br><br>
+<h2>A programming language is a system for encoding, naming, 
+    <div class="bump">and organizing algorithms for reuse </div>
+    <div class="reuse">reuse
+    <br>reuse
+    <br>reuse
+    <br>reuse
+    <br>reuse
+    <br>reuse and application. </div></h2>
+
+<p>It’s an algorithm management system. This is why, despite the hype, it’s silly to say 
+<br>Facebook has an algorithm. An algorithm can be translated into a function, and that 
+<br>function can be called (run) when software is executed. There are algorithms that relate 
+<br>to image processing and for storing data efficiently and for rapidly running through the 
+<br>elements of a list. Most algorithms come for free, already built into a programming 
+<br>language, or are available, organized into libraries, for download from the Internet 
+<br>in a moment. You can do a ton of programming without actually thinking about algorithms
+<br>—you can save something into a database or print a Web page by cutting and pasting code. 
+<br>But if you want the computer to, say, identify whether it’s reading Spanish or Italian, 
+<br>you’ll need to write a language-matching function. So in that sense, algorithms can be 
+<br>pure, mathematical entities as well as practical expressions of ideas on which you can 
+<br>place your grubby hands.</p>
+
+<p>One thing that took me forever to understand is that computers aren’t actually “good at math.” 
+<br>They can be programmed to execute certain operations to certain degrees of precision, so 
+<br>much so that it looks like “doing math” to humans.<b>(6)</b> Dijkstra said: “Computer science is no 
+<br>more about computers than astronomy is about telescopes.”<b>(7)</b> A huge part of computer science 
+<br>is about understanding the efficiency of algorithms—how long they will take to run. Computers 
+<br>are fast, but they can get bogged down—for example, when trying to find the shortest path 
+<br>between two points on a large map. Companies such as Google, Facebook, and Twitter are built 
+<br>on top of fundamental computer science <b>(8)</b> and pay great attention to efficiency, because their 
+<br>users do things (searches, status updates, tweets) an extraordinary number of times. Thus 
+<br>it’s absolutely worth their time to find excellent computer scientists, many with doctorates, 
+<br>who know where all the efficiencies are buried.</p>
+
+<h6>(6)
+<br>Two plus two usually equals four, but in a language like JavaScript if you add 0.4 + 0.2, the 
+<br>answer is 0.6000000000000001. That’s because those numbers are interpreted as “floating point” 
+<br>(the point is the period), and the JavaScript language uses a particular way of representing 
+<br>those numbers in memory so that sometimes there are (entirely predictable) rounding errors. 
+<br>This is just one of those things that you have to know if you are a committed Web programmer.</h6>
+<br>
+<h6>(7)
+<br>Well, he might have said it. It’s attributed to him, but it might be folklore. 
+<br>Nonetheless, great quote!
+</h6>
+<br>
+<h6>(8)
+<br>Meaning those companies are so huge that they can’t use as much off-the-shelf, prepackaged 
+<br>code as the rest of us but rather need to rebuild things to their own very tight specifications.
+</h6>
+
+<p>It takes a good mathematician to be a computer scientist, but a middling one to be an effective 
+<br>programmer. Until you start dealing with millions of people on a network or you need to blur or 
+<br>sharpen a million photos quickly, you can just use the work of other people. When it gets real, 
+<br>break out the comp sci. When you’re doing anything a hundred trillion times, nanosecond delays 
+<br>add up. Systems slow down, users get cranky, money burns by the barrel. (9)</p>
+
+<h6>(9)
+<br>By the way, that earlier assertion about how $100,000 in singles can fit in a barrel? It comes 
+<br>from a calculation made in Wolfram Alpha, a search engine that works well with quantities. 
+<br>The search was, “1 US dry barrel/volume of 1 US dollar banknote,” and the result is 101,633.
+</h6>
+
+<p>The hardest work in programming is getting around things that aren’t computable, in finding 
+<br>ways to break impossible tasks into small, possible components, and then creating the impression 
+<br>that the computer is doing something it actually isn’t, like having a human conversation. 
+<br>This used to be known as “artificial intelligence research,” but now it’s more likely to go 
+<br>under the name “machine learning” or “data mining.” When you speak to Siri or Cortana and 
+<br>they respond, it’s not because these services understand you; they convert your words into text, 
+<br>break that text into symbols, then match those symbols against the symbols in their database 
+<br>of terms, and produce an answer. Tons of algorithms, bundled up and applied, mean that computers can fake listening.</p>
+
+<p>A programming language has at least two jobs, then. It needs to wrap up lots of algorithms so 
+<br>they can be reused. Then you don’t need to go looking for a square-root algorithm (or a genius 
+<br>programmer) every time you need a square root. And it has to make it easy for programmers to 
+<br>wrap up new algorithms and routines into functions for reuse. The DRY principle, for Don’t Repeat 
+<br>Yourself, is one of the colloquial tenets of programming. That is, you should name things once, 
+<br>do things once, create a function once, and let the computer repeat itself. This doesn’t always 
+<br>work. Programmers repeat themselves constantly. I’ve written certain kinds of code a hundred 
+<br>times. This is why DRY is a principle.</p>
+<br><br>
+<h2>Enough talk. </h2>
+    
+    <h2 class="cod">l̸̰̍é̴̮ẗ̷̻'̵̢̈́ş̷̊ ç̴͝o̵̭̓d̵̡̾e̵̥͂!</h2>
+
+    <h3>2.5</h3>
+    <div class="boxtwo"></div>
+    <h2 class="titles"><u>the sprint</u></h2>
+
+<p>After a few months the budget is freed up, and the Web re-architecture project is under way. 
+<br>They give it a name: Project Excelsior. Fine. TMitTB (who, to be fair, has other clothes 
+<br>and often dresses like he’s in Weezer) checks in with you every week.</p>
+
+<p>He brings documents. Every document has its own name. The functional specification is a set 
+<br>of at least a thousand statements about users clicking buttons. “Upon accessing the Web 
+<br>page the user if logged in will be identified by name and welcomed and if not logged in will 
+<br>be encouraged to log in or create an account. (See user registration workflow.)”</p>
+
+<h2 class="god"><i>God have mercy on our souls.</i></h2>
+
+<p>From there it lists various error messages. It’s a sort of blueprint in that it describes—in 
+    <br>words, with occasional diagrams—a program that doesn’t exist.</p>
+
+<p>Some parts of the functional specification refer to “user stories,” tiny hypothetical 
+<br>narratives about people using the site, e.g., “As a visitor to the website, I want to search 
+<br>for products so I can quickly purchase what I want.” (10)</p>
+
+<h6>(10)
+<br>User stories are often written on paper cards and arranged on a wall; they can also be two-dimensional 
+<br>computerized cards that are then moved around with a mouse and “assigned” to programmers.
+</h6>
+
+<p>Then there’s something TMitTB calls wireframe mock-ups, which are pictures of how the website will look, 
+<br>created in a program that makes everything seem as if it were sketched by hand, </p>
+
+<h2 class="squig">all a little squiggly  </h2>  
+
+<p>—even though it was produced on a computer. This is so no one gets the wrong idea about these 
+<br>ideas-in-progress and takes them too seriously. Patronizing, but point taken.</p>
+
+<p>You rarely see TMitTB in person, because he’s often at conferences where he 
+<br>presents on panels. He then tweets about the panels and notes them on his 
+<br>well-populated LinkedIn page. Often he takes a picture of the audience from 
+<br>the stage, and what you see is an assembly of mostly men, many with beards, 
+<br>the majority of whom seem to be peering into their laptop instead of up at 
+<br>the stage. Nonetheless the tweet that accompanies that photo says something 
+<br>like, “AMAZING audience! @ the panel on #microservice architecture at #ArchiCon2015.”</p>
+
+<p>He often tells you just how important this panel-speaking is for purposes 
+<br>of recruiting. Who’s to say he is wrong? It costs as much to hire a senior 
+<br>programmer as it does to hire a midlevel executive, so maybe going to 
+<br>conferences is his job, and in the two months he’s been here he’s hired 
+<br>four people. His two most recent hires have been in Boston and Hungary, 
+<br>neither of which is a place where you have an office.</p>
+
+<p>But what does it matter? Every day he does a 15-minute “standup” meeting 
+<br>via something called 
+
+<h2 class="slack">Slack, <div class="plaid">which is essentially like Google Chat but with some sort of plaid visual theme,</div></h2>
+
+<p>and the programmers seem to agree that this is a wonderful and fruitful way to work.</p>
+
+<p>“I watch the commits,” TMitTB says. Meaning that every day he reviews the code 
+<br>that his team writes to make sure that it’s well-organized. “No one is pushing 
+<br>to production without the tests passing. We’re good.”</p>
+
+<p>Your meetings, by comparison, go for hours, with people arranged around a 
+<br>table—sitting down. You wonder how he gets his programmers to stand up, but 
+<br>then some of them already use standing desks. Perhaps that’s the ticket.</p>
+
+<p>Honestly, you would like to go to conferences sometimes and be on panels. 
+<br>You could drink bottled water and hold forth just fine.</p>
+
+<h3>2.6</h3>
+<div class="boxtwo"></div>
+<h2 class="titles"><u>what's with all these <br>conferences, anyway?</u></h2>
+
+<h2 class="con">Conferences!<br>Conferences!<br>Conferences!</h2>
+
+<p> The website Lanyrd lists hundreds of technology conferences for June 2015. 
+<br>There’s an event for software testers in Chicago, a Twitter conference in 
+<br>São Paulo, and one on enterprise content management in Amsterdam. In New York 
+<br>alone there’s the Big Apple Scrum Day, the Razorfish Tech Summit, an 
+<br>entrepreneurship boot camp for veterans, a conference dedicated to digital 
+<br>mapping, many conferences for digital marketers, one dedicated to Node.js, one 
+<br>for Ruby, and one for Scala (these are programming languages), a couple of 
+<br>breakfasts, a conference for cascading style sheets, one for text analytics, 
+<br>and something called the Employee Engagement Awards.</p>
+
+<p>Tech conferences look like you’d expect. Tons of people at a Sheraton, keynote 
+<br>in Ballroom D. Or enormous streams of people wandering through South by 
+<br>Southwest in Austin. People come together in the dozens or thousands and 
+<br>attend panels, ostensibly to learn; they attend presentations and brush up 
+<br>their skills, but there’s a secondary conference function, one of acculturation. </p>
+<br>
+<h2 class="tribe">You go to a technology conference to affirm your tribal identity, </h2>
+<br>
+<p>to transfer out of the throng of dilettantes and into the zone of the professional. 
+<br>You pick up swag and talk to vendors, if that’s your thing.</p>
+
+<p>Technology conferences are where primate dynamics can be fully displayed, where 
+<br>relationships of power and hierarchy can be established. There are keynote 
+<br>speakers—often the people who created the technology at hand or crafted a given 
+<br>language. There are the regular speakers, often paid not at all or in airfare, 
+<br>who present some idea or technique or approach. Then there are the panels, </p>
+
+<br>
+<h2 class="row">where a group of people are lined up in a row and forced into some semblance of interaction while the audience checks its e-mail.</h2>
+
+<p>I’m a little down on panels. They tend to drift. I’m not sure why they exist.</p>
+
+<p>Here’s the other thing about technology conferences: There has been much sexual 
+<br>harassment and much sexist content in conferences. Which is stupid, because </p>
+
+<h2 class="tribe">computers are dumb rocks lacking gen_tal_a, </h2>
+
+<p>but there you have it.</p>
+
+<p>Women in software, having had enough, started to write it up, post to blogs. 
+<br>Other women did the same. The problem is pervasive: There are a lot of 
+<br>conferences, and there have been many reports of harassing behavior. 
+<br>The language Ruby, the preferred language for startup bros, developed 
+<br>the worst reputation. At a Ruby conference in 2009, someone gave a talk 
+<br>subtitled “Perform Like a Pr0n Star,” with sexy slides. That was 
+<br>dispiriting. There have been criminal incidents, too.</p>
+
+<p>Conferences began to develop codes of conduct, rules and algorithms for 
+<br>people (men, really) to follow.
+<br>
+<br>If you are subject to or witness unacceptable behavior, or have any 
+<br>other concerns, please notify a community organizer as soon as possible …
+    <br>
+    <br><u>— Burlington Ruby Conference</u>
+<br> php[architect] is dedicated to providing a harassment-free event experience 
+<br>for everyone and will not tolerate harassment or offensive behavior in any form.
+   <br> 
+ <br><u>— php[architect]</u>
+<br>The Atlanta Java Users Group (AJUG) is dedicated to providing an outstanding 
+<br>conference experience for all attendees, speakers, sponsors, volunteers, and 
+<br>organizers involved in DevNexus (GeekyNerds) regardless of gender, sexual 
+<br>orientation, disability, physical appearance, body size, race, religion, financial 
+<br>status, hair color (or hair amount), platform preference, or text editor of choice.</p>
+
+<p>This was always an issue, but the conference issues gave people a point of 
+<br>common reference. Why were there so many men in this field? </p>
+
+<h2 class="strange">Why do they behave so </h2>
+    
+    <h2 class="question"><marquee behavior="scroll" direction="up" scrollamount="10">strangely?</marquee></h2>
+
+<p>Why is it so hard for them to be in groups with female programmers 
+<br>and behave in a typical, adult way?</p>
+
+<p>“I go to work and I stick out like a sore thumb. I have been mistaken
+<br>for an administrative assistant more than once. I have been asked if I was 
+<br>physical security (despite security wearing very distinctive uniforms),” 
+<br>wrote Erica Joy Baker on Medium.com who has worked, among other places, at Google.</p>
+
+<p>“Always the only woman in the meeting, often the first—the first female R&D 
+<br>engineer, first female project lead, first female software team lead—in the 
+<br>companies I worked for,” wrote another woman in Fast Company magazine.</p>
+
+<p>Fewer than a fifth of undergraduate degrees in computer science awarded 
+<br>in 2012 went to women, according to the National Center for Women & Information 
+<br>Technology. Less than 30 percent of the people in computing are women. </p>
+
+<h2 class="fallen">
+<div>And the</div>
+<div class="fall1"> number of</div>
+<div class="fall2"> women in</div>
+<div class="fall3"> computing</div>
+<div class="fall4"> has fallen </div>
+<div class="fall5"> since</div>
+<div class="fall6">the</div>
+<div class="fall7">1980s,</div>
+</h2>
+<br>
+<p> even as the market for their skills has expanded. The pipeline is a 
+<br>huge problem. And yet it’s not unsolvable. I’ve met managers who 
+<br>have built perfectly functional large teams that are more than half 
+<br>female coders. Places such as the handicrafts e-commerce site Etsy 
+<br>have made a particular effort to develop educational programs and 
+<br>mentorship programs. Organizations such as the not-for-profit Girl 
+<br>Develop It teach women, and just women, how to create software.</p>
+
+<p>It’s all happening very late in the boom, though. In 2014 some 
+<br>companies began to release diversity reports for their programming 
+<br>teams. It wasn’t a popular practice, but it was revealing. 
+<br>Intel is 23 percent female; Yahoo! is 37 percent. Apple, Facebook, 
+<br>Google, Twitter, and Microsoft are all around 30 percent. These 
+<br>numbers are for the whole companies, not only programmers. 
+<br>That’s a lot of women who didn’t get stock options. The numbers 
+<br>of people who aren’t white or Asian are worse yet. Apple just 
+<br>gave $50 million to fund diversity initiatives, equivalent to 0.007 
+<br>percent of its market cap. Intel has a $300 million diversity project.</p>
+
+<p>The average programmer is moderately diligent, capable of basic 
+    <br>mathematics, has a working knowledge of one or more programming 
+    <br>languages, and can communicate what he or she is doing to 
+    <br>management and his or her peers. Given that a significant number 
+    <br>of women work as journalists and editors, perform surgery, run 
+    <br>companies, manage small businesses, and use spreadsheets, that a 
+    <br>few even serve on the Supreme Court, and that we are no longer 
+    <br>surprised to find women working as accountants, professors, statisticians, 
+    <br>or project managers, it’s hard to imagine that they can’t write 
+    <br>JavaScript. Programming, despite the hype and the self-serving fantasies 
+    <br>of programmers the world over, isn’t the most intellectually demanding 
+    <br>task imaginable.</p>
+
+<p>Which leads one to the inescapable conclusion: </p>
+    
+<h2>The problem with women in technology isn’t the </h2>
+<h2 class="women"><a href='https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/images/sec1_demographics.jpg'>women</a></h2>
+<br><br><br><br>
+<div class="im1"><img src="https://pro2-bar.myportfolio.com/v1/assets/16bb2a3d-1660-44f6-9b9c-0d2e1afa7207/776e193a-6b93-4a05-9b03-52455c30def8_rw_1200.jpg?h=cbbecfafe1e8bc72eb664da8afd4b9dc" alt="Chapter Review" width="90"></div>
+
+<div class="im2"><img src="https://pro2-bar.myportfolio.com/v1/assets/16bb2a3d-1660-44f6-9b9c-0d2e1afa7207/178025d7-4aa1-48f8-933f-716425fa2b31_rw_1200.jpg?h=6143ab475086169e707bac4d336cec27" alt="Chapter Review 2" width="90"></div>
+<br><br><br><br>
+<div class="im3"><img src="https://pro2-bar.myportfolio.com/v1/assets/16bb2a3d-1660-44f6-9b9c-0d2e1afa7207/48109490-2e13-45e1-a88e-83f1040c16d3_rw_1200.jpg?h=257bce33232f822e60e23db55ffeea18" alt="Chapter Review 3" width="90"></div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
